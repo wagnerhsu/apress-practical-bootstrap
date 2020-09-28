@@ -1,0 +1,20 @@
+{
+  "name": "apress-practical-bootstrap",
+  "version": "1.0.0",
+  "description": "This repository accompanies [*Practical Bootstrap*](http://www.apress.com/9781484260708) by Panos Matsinopoulos (Apress, 2020).",
+  "main": "index.js",
+  "scripts": {
+    "start": "light-server -s ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagnerhsu/apress-practical-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wagnerhsu/apress-practical-bootstrap/issues"
+  },
+  "homepage": "https://github.com/wagnerhsu/apress-practical-bootstrap#readme"
+}
