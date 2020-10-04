@@ -1,24 +1,57 @@
-<div>
-    <em>Input Validation</em>
-    <hr class="my-4">
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="form-group row">
-    <label class="col-lg-2 col-form-label" for="valid-input">Email</label>
-    <div class="col-lg-10">
-        <input type="email" class="form-control is-valid" id="valid-input" placeholder="Your username" value="foo@bar.com" required/>
-        <div class="valid-feedback">
-            Nice!
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+
+    <title>Twitter Bootstrap Forms Reference Page</title>
+</head>
+
+<body>
+
+    <div id="main-container" class="container">
+        <!-- Content will be inserted here -->
+        <div>
+            <em>Input Validation</em>
+            <hr class="my-4">
+        </div>
+
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label" for="valid-input">Email</label>
+            <div class="col-lg-10">
+                <input type="email" class="form-control is-valid" id="valid-input" placeholder="Your username"
+                    value="foo@bar.com" required />
+                <div class="valid-feedback">
+                    Nice!
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-lg-2 col-form-label" for="invalid-input">Password</label>
+            <div class="col-lg-10">
+                <input type="password" class="form-control is-invalid" id="invalid-input" placeholder="Your password"
+                    required>
+                <div class="invalid-feedback">
+                    You have to give your password
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="form-group row">
-    <label class="col-lg-2 col-form-label" for="invalid-input">Password</label>
-    <div class="col-lg-10">
-        <input type="password" class="form-control is-invalid" id="invalid-input" placeholder="Your password" required>
-        <div class="invalid-feedback">
-            You have to give your password
-        </div>
-    </div>
-</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

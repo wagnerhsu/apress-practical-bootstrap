@@ -1,15 +1,61 @@
-<div>
-    <em>Input &amp; Button Groups</em>
-    <hr class="my-4">
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="row justify-content-end">
-    <div class="col-lg-10">
-        <div class="input-group">
-            <input type="text" class="form-control"/>
-            <div class="input-group-append">
-                <button type="button" class="btn btn-primary">Go!</button>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+    <title>Twitter Bootstrap Forms Reference Page</title>
+</head>
+
+<body>
+
+    <div id="main-container" class="container">
+        <!-- Content will be inserted here -->
+
+        <div>
+            <em>Input &amp; Button Groups</em>
+            <hr class="my-4">
+        </div>
+
+        <div class="row justify-content-end">
+            <div class="col-lg-10">
+                <div class="input-group">
+                    <input type="text" class="form-control" />
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-primary">Go!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-lg-10">
+                <div class="input-group">
+                    <div class="form-group has-feedback has-clear">
+                        <input type="search" class="form-control" id="exampleInput1" placeholder="Enter text here">
+                        <span class="form-control-clear glyphicon glyphicon-remove form-control-feedback hidden"></span>
+                    </div>
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary" id="exampleButton1">Search</button>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="javascripts/main.js"></script>
+</body>
+
+</html>
