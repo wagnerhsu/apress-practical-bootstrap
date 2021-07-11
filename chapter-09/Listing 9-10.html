@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
-
-  <title>Modal Dialogs</title>
+    <title>Modal Dialogs</title>
 </head>
 <body>
 
-  <button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 1</button>
-  <button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 2</button>
-  <button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 3</button>
+<button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 1</button>
+<button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 2</button>
+<button class="btn btn-lg btn-success" data-toggle="modal" data-target=".modal">Open Modal 3</button>
 
-  <div class="modal fade" tabindex="-1" role="dialog">
+<div class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-content">
+            <div class="modal-header">
 
-          <h4 class="modal-title">Modal Demo of relatedTarget</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="glyphicon glyphicon-remove"></span></button>
+                <h4 class="modal-title">Modal Demo of relatedTarget</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"
+                          class="fas fa-window-close"></span>
+                </button>
 
+            </div>
+
+            <div class="modal-body text-center">
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
         </div>
-
-        <div class="modal-body text-center">
-        </div>
-        <div class="modal-footer">
-
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 
-  <!-- Custom JavaScript -->
-  <script src="javascripts/related-target.js"></script>
+<!-- Custom JavaScript -->
+<script src="javascripts/related-target.js"></script>
 </body>
 </html>
 

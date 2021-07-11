@@ -9,4 +9,4 @@ $(document).ready(function() {
         $('.modal').modal('show');
         return false;
     });
-});
+ });
